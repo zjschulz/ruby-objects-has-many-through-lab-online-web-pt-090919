@@ -16,6 +16,4 @@ class Song
     @@all
   end
   
-end 
-  
 end
