@@ -1,4 +1,4 @@
-class Doctor 
+class Patient
 
   attr_reader :name
 
