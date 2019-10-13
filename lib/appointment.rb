@@ -1,11 +1,11 @@
 class Appointment 
 
-  attr_reader :name
+  attr_reader :date
 
   @@all = []
 
-  def initialize(name)
-    @name = name
+  def initialize(date)
+    @date = date
     @@all << self
   end
 
