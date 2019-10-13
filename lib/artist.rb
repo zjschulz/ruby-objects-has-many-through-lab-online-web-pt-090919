@@ -2,7 +2,7 @@ class Artist
   
   attr_reader :name 
   
-  @@all
+  @@all = []
   
   def initialize(name)
     @name = name
